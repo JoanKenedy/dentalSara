@@ -1,0 +1,39 @@
+---
+import Promo from "./Promo.astro"
+---
+
+<section class="w-full flex justify-center items-center" id="Promociones">
+  <div class="w-full max-w-7xl px-4">
+    <h2 class="text-center font-black text-4xl md:text-6xl">Conoce <strong class="gold-origin"> nuestras promociones</strong></h2>
+    <div class="grid grid-cols-1 place-content-center mt-6 mb-6 gap-4 md:grid-cols-promo md:gap-3 lg:grid-cols-3 lg:gap-6">
+      <Promo 
+        promotion="/Promos-Recuperado.webp"
+        alt="Promoción diseño de sonrisa"
+      />
+      <Promo 
+        promotion="/Promos-Recuperado2.webp"
+        alt="Promoción Valoración gratuita"
+      />
+      <Promo 
+        promotion="/promo-1.webp"
+        alt="Promoción Carillas"
+      />
+      <Promo 
+        promotion="/promo-4.webp"
+        alt="Promoción"
+      />
+      <Promo 
+        promotion="/promo-blanqueamiento.webp"
+        alt="Promoción"
+      />
+    </div>
+  </div>
+</section>
+
+<style>
+
+  .gold-origin{
+   color: #cc9900;
+  } 
+
+</style>
