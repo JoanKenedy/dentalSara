@@ -4,7 +4,7 @@ interface Props {
 }
 
 const { title } = Astro.props;
-const description = "En Harmony Dental Clinic, ofrecemos servicios dentales de calidad con un enfoque en la salud bucal integral. Nuestro equipo de profesionales altamente calificados se especializa en una variedad de tratamientos, desde limpiezas y chequeos de rutina hasta procedimientos de ortodoncia y estética dental. Descubre cómo podemos crear y mantener tu sonrisa saludable y hermosa. ¡Agenda tu cita hoy!"
+const description = "En Dental Valley, ofrecemos servicios dentales de calidad con un enfoque en la salud bucal integral. Nuestro equipo de profesionales altamente calificados se especializa en una variedad de tratamientos, desde limpiezas y chequeos de rutina hasta procedimientos de ortodoncia y estética dental. Descubre cómo podemos crear y mantener tu sonrisa saludable y hermosa. ¡Agenda tu cita hoy!"
 ---
 
 <!doctype html>
@@ -20,8 +20,8 @@ const description = "En Harmony Dental Clinic, ofrecemos servicios dentales de c
 		<!-- Open Graph data -->
 		<meta property="og:title" content={title} />
 		<meta property="og:type" content="Web" />
-		<meta property="og:url" content="https://harmonydentalclinic.dentarios.com.mx/" />
-		<meta property="og:image" content="https://harmonydentalclinic.dentarios.com.mx/favicon.png" />
+		<meta property="og:url" content="https://dentalvalley.com.mx/" />
+		<meta property="og:image" content="https://dentalvalley.com.mx/favicon.png" />
 		<meta property="og:description" content={description} />
 		<meta property="og:site_name" content="Dental Valley" />
 		<link rel="shortcut icon" href="/logo_valley.png" type="image/x-icon">
@@ -39,21 +39,21 @@ const description = "En Harmony Dental Clinic, ofrecemos servicios dentales de c
 	</script>
 	<!-- Meta Pixel Code -->
 <script is:inline>
-	!function(f,b,e,v,n,t,s)
-	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-	n.queue=[];t=b.createElement(e);t.async=!0;
-	t.src=v;s=b.getElementsByTagName(e)[0];
-	s.parentNode.insertBefore(t,s)}(window, document,'script',
-	'https://connect.facebook.net/en_US/fbevents.js');
-	fbq('init', '466697709021237');
-	fbq('track', 'PageView');
-	</script>
-	<noscript><img height="1" width="1" style="display:none"
-	src="https://www.facebook.com/tr?id=466697709021237&ev=PageView&noscript=1"
-	/></noscript>
-	<!-- End Meta Pixel Code -->
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2749968201826830');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2749968201826830&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 	</head>
 	<body>
 		<slot />
